@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(154, 154, 255);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 10px;
+}
+
+.column_of_desk {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background-color: rgb(196, 196, 196);
+    width: calc(100% / 3);
+    padding: 8px;
+
+    border-radius: 5px;
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add_button {
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.card {
+    flex-grow: 1;
+    background-color: white;
+
+    padding: 8px 16px;
+
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.close_button {
+    cursor: pointer;
+}
+
+.drag {
+    position: absolute;
+    
+}
